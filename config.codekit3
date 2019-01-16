@@ -33,6 +33,17 @@
 		"oAP": "/css/main.css.map",
 		"oF": 0
 		},
+	"/img/header_background.jpg": {
+		"ft": 16384,
+		"iS": 177488,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/header_background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
