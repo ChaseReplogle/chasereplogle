@@ -33,6 +33,28 @@
 		"oAP": "/css/main.css.map",
 		"oF": 0
 		},
+	"/img/bentoak.jpg": {
+		"ft": 16384,
+		"iS": 149512,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/bentoak.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/facebook.png": {
+		"ft": 32768,
+		"iS": 661,
+		"oA": 0,
+		"oAP": "/img/facebook.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/header_background.jpg": {
 		"ft": 16384,
 		"iS": 177488,
@@ -42,6 +64,61 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/instagram.png": {
+		"ft": 32768,
+		"iS": 1012,
+		"oA": 0,
+		"oAP": "/img/instagram.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/pastorwriter.jpg": {
+		"ft": 16384,
+		"iS": 67542,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/pastorwriter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/spotify.png": {
+		"ft": 32768,
+		"iS": 1107,
+		"oA": 0,
+		"oAP": "/img/spotify.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/twitter.png": {
+		"ft": 32768,
+		"iS": 805,
+		"oA": 0,
+		"oAP": "/img/twitter.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/youtube.png": {
+		"ft": 32768,
+		"iS": 497,
+		"oA": 0,
+		"oAP": "/img/youtube.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/index.html": {
