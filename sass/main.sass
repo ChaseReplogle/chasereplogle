@@ -48,10 +48,12 @@ table
 .wrapper
 	max-width: 1200px
 	margin: 0 auto
+	padding: 0px 20px
 
 .wrapper_narrow
 	max-width: 800px
 	margin: 0 auto
+	padding: 0px 20px
 
 
 
@@ -127,13 +129,17 @@ p
 
 //header
 .header
-	background: url('../img/header_background.jpg') no-repeat top center
+	background: url('../img/header_background.jpg') no-repeat center top
 	background-size: cover
+	@media (max-width: 800px)
+		background: url('../img/header_background.jpg') no-repeat 25% top
 
 .header_menu
 	padding: 20px 30px
 	display: flex
 	justify-content: flex-end
+	@media (max-width: 800px)
+		justify-content: flex-start
 
 	a
 		color: white
@@ -142,6 +148,9 @@ p
 		padding-left: 20px
 		&:hover
 			opacity: .5
+		@media (max-width: 800px)
+			padding-left: 0px
+			padding-right: 20px
 
 	h1
 		font-weight: 800
@@ -151,6 +160,10 @@ p
 	color: white
 	padding: 300px 0px 180px 0px
 	margin-left: 50%
+	@media (max-width: 800px)
+		margin-left: 0px
+		padding: 300px 30px 30px 30px
+		width: auto
 
 .header_footer
 	display: flex
@@ -158,7 +171,15 @@ p
 	color: white
 	align-items: center
 	padding-bottom: 70px
+	@media (max-width: 800px)
+		flex-direction: column-reverse
+		align-items: flex-start
+		padding-left: 30px
+		padding-right: 30px
 
+	h4
+		@media (max-width: 800px)
+			margin-top: 40px
 
 
 //ARTICLES
@@ -167,6 +188,9 @@ p
 	justify-content: space-between
 	margin-top: -55px
 	margin-bottom: 60px
+	@media (max-width: 800px)
+		flex-wrap: wrap
+		margin-bottom: 30px
 
 .articles_item
 	background: white
@@ -174,6 +198,8 @@ p
 	box-shadow: 0px 0px 20px 0px rgba(black, .2)
 	&:hover
 		box-shadow: 0px 0px 40px 0px rgba(black, .4)
+	@media (max-width: 800px)
+		width: 100%
 
 	img
 		width: 100%
@@ -194,6 +220,8 @@ p
 //QUOTE
 .quote
 	margin-bottom: 60px
+	@media (max-width: 800px)
+		margin-bottom: 30px
 
 	blockquote
 		font-family: adobe-garamond-pro, serif
@@ -215,7 +243,8 @@ p
 .formkit-form[data-uid="434e8280b9"] [data-style="clean"]
 	padding: 0px !important
 	margin-top: 15px
-
+	@media (max-width: 800px)
+		margin-top: 5px
 
 //LINKS
 .links
@@ -223,9 +252,15 @@ p
 	justify-content: space-around
 	margin-top: 50px
 	margin-bottom: 100px
+	@media (max-width: 800px)
+		flex-wrap: wrap
+		margin-bottom: 40px
 
 .links_item
 	width: 40%
+	@media (max-width: 800px)
+		width: 100%
+		margin-bottom: 40px
 
 	img
 		width: 100%
@@ -253,6 +288,8 @@ p
 		justify-content: space-between
 		align-items: center
 		color: lightgray
+		@media (max-width: 800px)
+			flex-direction: column
 
 .footer_menu
 	a
@@ -266,14 +303,17 @@ p
 	p
 		font-size: .6rem
 		margin-top: 5px
-
+		@media (max-width: 800px)
+			text-align: center
 
 
 
 //ABOUT
 .bio_header
-		background: url('../img/bio_background.jpg') no-repeat top center
+		background: url('../img/bio_background.jpg') no-repeat center top
 		background-size: cover
+		@media (max-width: 800px)
+			background: none
 
 		.header_menu
 			a
@@ -282,6 +322,8 @@ p
 .bio_header_text
 	padding: 100px 0px 250px 0px
 	color: #424242
+	@media (max-width: 800px)
+		padding: 50px 30px
 
 	h2
 		margin-bottom: 30px
@@ -301,6 +343,8 @@ p
 .contact_header
 		background: url('../img/contact_background.jpg') no-repeat top center
 		background-size: cover
+		@media (max-width: 800px)
+			background: none
 
 		.header_menu
 			a
@@ -309,6 +353,8 @@ p
 .contact_header_text
 	padding: 100px 0px 250px 0px
 	color: #424242
+	@media (max-width: 800px)
+		padding: 40px 30px
 
 	h3
 		margin-bottom: 25px
