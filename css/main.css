@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  box-sizing: border-box;
 }
 
 ol, ul {
@@ -346,8 +347,12 @@ p {
   font-family: adobe-garamond-pro, serif;
 }
 
+form {
+  padding-top: 30px;
+}
+
 input {
-  width: 100%;
+  width: -webkit-fill-available;
   display: block;
   border: 1px solid lightgray;
   padding: 15px 20px;
@@ -355,11 +360,18 @@ input {
 }
 
 textarea {
-  width: 100%;
+  width: -webkit-fill-available;
   display: block;
   border: 1px solid lightgray;
   padding: 15px 20px;
   margin-bottom: 10px;
   height: 50px;
+}
+
+button {
+  outline: none;
+  border: 0px;
+  display: block;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
