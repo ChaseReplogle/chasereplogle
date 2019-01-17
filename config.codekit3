@@ -9,11 +9,25 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/CNAME",
+		"oF": 0
+		},
+	"/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/contact.html",
 		"oF": 0
 		},
 	"/css/main.css": {
@@ -44,6 +58,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/bio_background.jpg": {
+		"ft": 16384,
+		"iS": 144795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/bio_background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/contact_background.jpg": {
+		"ft": 16384,
+		"iS": 402632,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contact_background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/img/facebook.png": {
 		"ft": 32768,
 		"iS": 661,
@@ -61,6 +97,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/header_background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/IMG_8378.jpg": {
+		"ft": 16384,
+		"iS": 697763,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/IMG_8378.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
