@@ -385,7 +385,8 @@ p {
 
 .footer_menu p {
   font-size: .6rem;
-  margin-top: 5px;
+  margin-top: 10px;
+  color: gray;
 }
 
 @media (max-width: 800px) {
