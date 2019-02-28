@@ -55,7 +55,7 @@
 		"oAP": "/img/bentoak.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/bio_background copy.jpg": {
@@ -66,7 +66,7 @@
 		"oAP": "/img/bio_background copy.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/bio_background.jpg": {
@@ -88,7 +88,7 @@
 		"oAP": "/img/chase.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/contact_background.jpg": {
@@ -121,7 +121,7 @@
 		"oAP": "/img/header_background.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/IMG_8378.jpg": {
@@ -132,7 +132,7 @@
 		"oAP": "/img/IMG_8378.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/instagram.png": {
@@ -154,7 +154,7 @@
 		"oAP": "/img/pastorwriter.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/spotify.png": {
@@ -220,7 +220,8 @@
 	"displayValue": "chasereplogle",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-gavin",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 573083085.12454903
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
