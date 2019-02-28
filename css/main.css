@@ -231,6 +231,7 @@ p {
   justify-content: space-between;
   margin-top: -55px;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 800px) {
