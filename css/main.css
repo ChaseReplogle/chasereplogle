@@ -244,6 +244,7 @@ p {
 .articles_item {
   background: white;
   width: 32%;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -509,7 +510,9 @@ p {
   display: none !important;
 }
 
-.eapps-instagram-feed-container > a {
-  display: none !important;
+.footer {
+  margin-top: -44px;
+  z-index: 99999;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
